@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Titanic" content="table">
+    <title>Titanic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main>
+        <section class="main">
+            <div class="input">
+                <input id="name" type="text" size="50" placeholder="Name">
+                <button onclick="findByName()" class="btn">SEARCH</button> 
+            </div>
+
+            <div class="input">
+                <input type="radio" id="male" name="gender" value="male" />
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" />
+                <label for="female">Female</label>
+                <button onclick="findByGender()" class="btn">SEARCH</button>    
+            </div>
+
+            <div class="input">
+                <input id="age" type="text" size="50"  placeholder="Age">
+                <button onclick="findByAge()" class="btn">SEARCH</button>  
+            </div>
+
+            <div class="input">
+                <input id="survived" type="checkbox" size="50" >
+                <label for="survived">Survived</label><br>
+                <button onclick="findBySurvived()" class="btn">SEARCH</button>   
+            </div>
+
+            <div>
+                <ul id="ul" style="list-style-type: none"></ul>
+            </div>
+        </section>
+
+        <section class="output">
+            <h1 class="results">Results:</h1>
+            <ul id="ul-output" style="list-style-type: none"></ul>
+        </section>
+    </main>
+
+    <script async src="script.js"></script>
+</body>
+</html>

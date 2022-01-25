@@ -1,0 +1,95 @@
+body{
+    background:#1C3334;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main{
+    background: #376E6F;
+    height: 500px;
+    width: 700px;
+    border: 1px solid black;
+    overflow-y: scroll;
+    
+}
+
+.output{
+    background: #376E6F;
+    margin-top: 10px;
+    height: 120px;
+    width: 700px;
+    border: 1px solid black;
+    overflow-y: scroll;
+}
+
+.results{
+    padding-left: 45px;
+    color: #C5C6C7;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+}
+.input{
+    height: 50px;
+    width: 100%;
+    background: #2F4454;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#search{
+    height: 20px;
+}
+
+.content{
+    height: 50px;
+    width: 600px;
+    margin-top: 10px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+    color: #C5C6C7;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.btn{
+    width: 105px;
+    height: 35px;
+    border-radius: 15px;
+}
+.btn:hover {
+    background: #DA7B93;
+    cursor: pointer;
+
+    color: #C5C6C7;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+::-webkit-scrollbar {
+    width: 14px; 
+    height: 8px;
+    background-color: #2E151B;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background-color: #DA7B93;
+    border-radius: 9em;
+    box-shadow: inset 1px 1px 10px #f3faf7;
+}
+
+
